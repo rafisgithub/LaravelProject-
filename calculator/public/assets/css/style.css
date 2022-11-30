@@ -1,0 +1,106 @@
+.calculator {
+  width: 408px;
+  height: 837px;
+  margin: 10px auto;
+  position: relative;
+  color: #fff;
+  font-size: 3em;
+}
+.screen-item {
+  position: absolute;
+  width: 352px;
+  height: 90px;
+    line-height: 90px;
+  background: #ff7f24;
+  border: 1px solid #fff;
+  top: 0px;
+  left: 28px;
+  text-align: right;
+  
+}
+.screen-item span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.screen-item .error {
+  color: #f00;
+  border: 1px solid;
+/* padding: 10px 60px; */
+  border-radius: 5px;
+  display: block;
+  width: 73%;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+  font-size: 0.8em;
+  padding: 20px 11px;
+  line-height: 1.2;
+}
+.touche__box {
+  position: relative;
+  top: 91px;
+  left: 27px;
+}
+.touche__box span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: 29px;
+  line-height: 2.1;
+}
+.touche__box span.soustraction {
+  line-height: 1.5;
+}
+.touche__box .touche__box-item {
+  width: 85px;
+  height: 96px;
+  background-color: #ffd6d6;
+  font-weight: bold;
+  color: #ff7f24;
+  float: left;
+  position: relative;
+  margin: 2px;
+}
+.touche__box .clear-item {
+  width: 173px;
+  height: 95px;
+  background: #53e4ed;
+  border: 1px solid #fff;
+  float: left;
+  position: relative;
+  margin: 2px;
+}
+.touche__box .clear-item span {
+  text-indent: 35px;
+  line-height: 1.99;
+}
+.touche__box .zero-item {
+  width: 174px;
+  height: 96px;
+}
+.touche__box .zero-item span {
+  text-indent: 79px;
+}
+.touche__box .zero-item,
+.touche__box .un-item {
+  position: relative;
+  margin-top: -97px;
+}
+.touche__box .equal-item {
+  width: 85px;
+  height: 96px;
+  background-color: #ea2131;
+  float: left;
+  position: relative;
+  margin: 2px;
+  height: 194px;
+}
+.touche__box .equal-item span {
+  line-height: 4;
+}
+.touche__box .clearme {
+  clear: both;
+}
