@@ -28,7 +28,11 @@
     <link href="{{asset('adminAsset')}}/assets/css/semi-dark.css" rel="stylesheet" />
     <link href="{{asset('adminAsset')}}/assets/css/header-colors.css" rel="stylesheet" />
 
+{{--    <link rel="stylesheet" href="{{asset('adminAsset')}}/favicon/favicon.png">--}}
+
     <title>@yield('title')</title>
+
+
 </head>
 
 <body>

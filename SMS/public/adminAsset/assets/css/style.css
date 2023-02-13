@@ -7,7 +7,7 @@ File: style.css
 */
 
 
-/* 
+/*
 - General
 - Header
 - Sidebar
@@ -84,7 +84,7 @@ a {
     right: 2rem;
     opacity: 0.5;
     cursor: pointer;
- 
+
  }
 
 .top-header .navbar .searchbar .form-control {
@@ -112,7 +112,7 @@ a {
 
 .top-header .navbar .searchbar .search-icon,
 .top-header .navbar .dropdown-searchbar .search-icon {
-  
+
     opacity: 0.5;
 
 }
@@ -225,7 +225,7 @@ a {
 }
 
 .top-header .navbar .dropdown-item .setting-text {
-   
+
     font-size: 16px;
     font-weight: 500;
 }
@@ -315,7 +315,7 @@ a {
 
 
 .top-header .navbar .nav-link .notify-badge {
-      
+
     position: absolute;
     top: -2px;
     right: -5px;
@@ -384,7 +384,7 @@ a {
     display: flex;
     align-items: start;
     justify-content: center;
-    z-index: 17; 
+    z-index: 17;
     transition: all .2s;
 }
 
@@ -397,7 +397,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f7f8fa; 
+    background-color: #f7f8fa;
     background-clip: padding-box;
     border-right: 1px solid rgb(226 227 228 / 0%);
     border-bottom: 1px solid #e2e3e4;
@@ -424,7 +424,7 @@ a {
     margin-top: 60px;
     padding-top: 1rem;
 }
- 
+
 
 .sidebar-wrapper .textmenu {
     position: fixed;
@@ -442,7 +442,7 @@ a {
 
 
 .sidebar-wrapper .textmenu .brand-logo {
-    
+
     position: fixed;
     top: 0;
     left: 60px;
@@ -504,12 +504,12 @@ a {
     color: #3461ff;
     background-color: hsl(216deg 98% 52% / 12%);
     border-color: rgb(52 97 255 / 12%);
-    
+
 }
 
 .wrapper.toggled .sidebar-wrapper {
     left: -300px;
-    
+
 }
 .wrapper.toggled .sidebar-wrapper .textmenu .brand-logo{
     left: -300px;
@@ -709,27 +709,27 @@ a {
     cursor: pointer;
     background-color: #ffffff;
  }
- 
+
  .best-product-item {
      background-color: #ffffff;
      cursor: pointer;
      border-radius: 10px;
      padding: .5rem;
  }
- 
+
  .best-product-item:hover {
      background-color: #f5f5f5;
  }
- 
+
  .product-box img {
      width: 100%;
  }
- 
+
  .best-product {
      position: relative;
      height: 460px;
  }
- 
+
 
 
 .chart-container1 {
@@ -806,7 +806,7 @@ a {
 }
 
 .productlist .product-title {
-    
+
     color: rgb(25, 27, 34);
 
 }
@@ -830,7 +830,7 @@ a {
 }
 
 .orderlist .product-title {
-    
+
     color: rgb(25, 27, 34);
 
 }
@@ -854,7 +854,7 @@ a {
 
 
 .iconmenu .ps__rail-x {
-	
+
 	height: 0px;
 }
 
@@ -1504,15 +1504,15 @@ a {
 
 
   @media screen and (max-width:1199px) {
-      
-    
+
+
     .sidebar-wrapper {
-    
+
         left: -300px;
     }
 
     .sidebar-wrapper .textmenu .brand-logo {
-      
+
         position: fixed;
         left: -300px;
 
@@ -1521,7 +1521,7 @@ a {
     .sidebar-wrapper .iconmenu {
 
         position: absolute;
-        
+
     }
 
     .sidebar-wrapper .iconmenu .nav-toggle-box {
@@ -1532,7 +1532,7 @@ a {
 
 
     .sidebar-wrapper .textmenu {
-        
+
         position: absolute;
     }
 
@@ -1544,7 +1544,7 @@ a {
     }
 
     .top-header .navbar{
-      
+
         left: 0px;
     }
 
@@ -1552,12 +1552,12 @@ a {
 
 
    .wrapper.toggled .sidebar-wrapper{
-    
+
         left: 0px;
     }
 
     .wrapper.toggled .sidebar-wrapper .textmenu .brand-logo {
-        
+
         left: 60px;
 
     }
@@ -1568,7 +1568,7 @@ a {
 
 
     .wrapper.toggled .sidebar-wrapper .textmenu {
-        
+
         left: 60px;
     }
 
@@ -1580,7 +1580,7 @@ a {
     }
 
     .wrapper.toggled .top-header .navbar{
-      
+
         left: 0px;
     }
 
@@ -1599,7 +1599,7 @@ a {
 		transition: all .2s ease-out
 	}
 
-    
+
 .top-header .navbar .full-searchbar {
 
     position: absolute;
@@ -1618,7 +1618,7 @@ a {
     padding: 0 1rem;
     -webkit-animation: .6s cubic-bezier(.25, .8, .25, 1) 0s normal forwards 1 animdropdown;
 	animation: .6s cubic-bezier(.25, .8, .25, 1) 0s normal forwards 1 animdropdown
- 
+
   }
 
 .email-header {
@@ -1649,7 +1649,7 @@ a {
     cursor: move;
     transition: all .3s ease-out
 }
-   
+
 .compose-mail-popup {
     width: auto;
     position: fixed;
@@ -1695,7 +1695,7 @@ a {
 
 
 
-  
+
 }
 
 

@@ -10,13 +10,14 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Metas -->
-    <title>@yield('title')</title>
+{{--    <title>Sonargaon Unversity @yield('title')</title>--}}
+    <title>Sonargaon Unversity</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{asset('frontEndAsset')}}/images/sufavicon.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="#" />
 
     <!-- Bootstrap CSS -->
@@ -39,14 +40,6 @@
 
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
-<!-- LOADER -->
-<div id="preloader">
-    <div class="loader">
-        <img src="{{asset('frontEndAsset')}}/images/loader.gif" alt="#" />
-    </div>
-</div>
-<!-- end loader -->
-<!-- END LOADER -->
 
 <!-- Start header -->
 @include('frontEnd.include.header')

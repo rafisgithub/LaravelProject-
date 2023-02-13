@@ -1,6 +1,6 @@
 @extends('admin.master')
 @section('title')
-    Admin Dashboard
+    SU(Admin Dashboard)
 @endsection
 @section('content')
     <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-4">

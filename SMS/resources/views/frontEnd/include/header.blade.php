@@ -1,4 +1,12 @@
-<header class="top-header">
+<header class="top-heder">
+    <div class="card con" style="background: #6f3b97;height: 60px">
+        <marquee behavior="" direction="" class="container"  style="text-align: center">
+            <h2 style="color: white;padding: 17px">ছাত্র-ছাত্রীদের জন্য বাস সার্ভিস। সিডিউল দেখুন ***Admission going on spring {{date('y')}} (50 100)% Scholarship on tuition fee.Bangla,BBA,LLB,BSc in civil,CSE,mechanical,Textile,Architecture,AMT,FDT, Marine MBA LLB</h2>
+        </marquee>
+    </div>
+
+    <div></div>
+
     <nav class="navbar header-nav navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('/') }}"><img src="{{asset('frontEndAsset')}}/images/logo.png" alt="image"></a>
@@ -34,4 +42,6 @@
 
         </div>
     </nav>
+
+
 </header>
